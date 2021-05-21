@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework.web: info
+    com.github.binarywang.demo.wx.miniapp: debug
+    cn.binarywang.wx.miniapp: debug
+wx:
+  miniapp:
+    configs:
+      - appid: wxb3349f7d7f943c7e #微信小程序的appid
+        secret: ba55a1c4e11644ba21b211314c89a09e #微信小程序的Secret
+        token: token #微信小程序消息服务器配置的token
+        aesKey: sssss #微信小程序消息服务器配置的EncodingAESKey
+        msgDataFormat: JSON
